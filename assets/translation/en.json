@@ -1,0 +1,25 @@
+{
+"Fisher’s full name":"Fisher’s full name",
+"Address of the organization":"Address of the organization",
+"Status of the contract":"Status of the contract",
+"Save contract":"Save contract",
+"Paid":"Paid",
+"In process":"In process",
+"Rejected by Payme":"Rejected by Payme",
+"Rejected by IQ":"Rejected by IQ",
+
+"Amount:":"Amount:",
+"Last invoice:":"Last invoice:",
+"Number of invoices:":"Number of invoices:",
+  "Physical": "Physical",
+  "Legal": "Legal",
+  "Contracts": "Contracts",
+  "History": "History",
+  "New Contracts": "New Contracts",
+  "Saved": "Saved",
+  "Profile": "Profile"
+
+
+
+
+}

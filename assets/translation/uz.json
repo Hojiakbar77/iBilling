@@ -1,0 +1,20 @@
+{
+"Fisher’s full name":"Fisherning to'liq ismi",
+"Address of the organization":"Tashkilot manzili",
+"Status of the contract":"Shartnoma holati",
+"Save contract":"Shartnomani saqlash",
+"Paid":"To'langan",
+"In process":"Jarayonda",
+"Rejected by Payme":"Payme tomonidan rad etilgan",
+"Rejected by IQ":"IQ tomonidan rad etilgan",
+"Amount:":"Miqdor:",
+"Last invoice:":"Oxirgi hisob-faktura:",
+"Number of invoices:":"Invoyslar soni:",
+  "Legal": "Yuridik",
+  "Physical":"Jismoniy",
+  "Contracts": "Shartnoma",
+  "History": "Tarix",
+  "New Contracts": "Yangi Shartnoma",
+  "Saved": "Saqlangan",
+  "Profile": "Profile"
+}

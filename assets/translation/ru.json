@@ -1,0 +1,23 @@
+
+{
+"Fisher’s full name":"Полное имя Фишера",
+"Address of the organization":"Адрес организации",
+"Status of the contract":"Статус договора",
+"Save contract":"Сохранить договор",
+"Paid":"Оплачено",
+"In process":"В процессе",
+"Rejected by Payme":"Отклонено Payme",
+"Rejected by IQ": "Отклонено IQ",
+  "Amount:":"Сумма",
+"Last invoice:":"Последний счет:",
+"Number of invoices:":"Количество счетов:",
+  "Legal": "Юридическое",
+  "Physical":"Физическое",
+  "Contracts": "Контракты",
+  "History": "История",
+  "New Contracts": "Новые контракты",
+  "Profile": "Профиль",
+  "Saved": "Сохранено"
+
+
+}
