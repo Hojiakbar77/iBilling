@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:ibilling/Pages/contracts_pages.dart';
+
 import 'package:ibilling/Pages/home_page.dart';
 import 'package:ibilling/provider/lang_provider.dart';
 import 'package:provider/provider.dart';
@@ -10,17 +10,16 @@ void main() async {
   await EasyLocalization.ensureInitialized();
   runApp(
     EasyLocalization(
-      supportedLocales: [Locale("uz"), Locale("ru"), Locale("en")],
+      supportedLocales: const [Locale("uz"), Locale("ru"), Locale("en")],
       path: "assets/translation",
-      startLocale: Locale("uz"),
-
+      startLocale:  const Locale("uz"),
       child: MultiProvider(
         providers: [
           ChangeNotifierProvider(
             create: (_) => LangProvider(),
           ),
         ],
-        child: MyApp(),
+        child: const MyApp(),
       ),
     ),
   );

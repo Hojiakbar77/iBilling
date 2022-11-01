@@ -28,7 +28,7 @@ class _MyScrollbarState extends State<MyScrollbar> {
   @override
   void initState() {
     super.initState();
-    _scrollController = widget.scrollController ?? ScrollController();
+    _scrollController = widget.scrollController;
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _updateScrollPainter(_scrollController!.position);
     });
@@ -51,9 +51,9 @@ class _MyScrollbarState extends State<MyScrollbar> {
       color: colorDark,
       textDirection: Directionality.of(context),
       thickness: _kScrollbarThickness,
-      radius: Radius.circular(20),
+      radius: const Radius.circular(20),
       fadeoutOpacityAnimation: const AlwaysStoppedAnimation<double>(1.0),
-      padding: EdgeInsets.only(top:15,right:15,bottom: 5,left: 5),
+      padding: const EdgeInsets.only(top:15,right:15,bottom: 5,left: 5),
 
     );
   }
