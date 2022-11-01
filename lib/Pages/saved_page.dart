@@ -14,8 +14,8 @@ class SavedPage extends StatelessWidget {
 
           children: [
             Image.asset("assets/images/bookmark.png",color: colorGrey,),
-            SizedBox(height: 15,),
-            Text("No saved Contracts",style: TextStyle(color: colorGrey,fontSize:14 ,fontWeight: FontWeight.w600),)
+            const SizedBox(height: 15,),
+            const Text("No saved Contracts",style: TextStyle(color: colorGrey,fontSize:14 ,fontWeight: FontWeight.w600),)
           ],
         ),
       ),
